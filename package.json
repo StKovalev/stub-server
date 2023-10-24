@@ -1,0 +1,31 @@
+{
+  "name": "stub-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/main.ts",
+    "dev": "nodemon",
+    "build": "tsc",
+    "start:prod": "node ./dist/main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/cookie-session": "^2.0.46",
+    "@types/express": "^4.17.20",
+    "@types/lodash": "^4.14.200",
+    "cookie-session": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "pbkdf2-password": "^1.2.1"
+  }
+}
